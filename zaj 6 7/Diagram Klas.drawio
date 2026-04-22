@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="A_xVDMcUZ2Aaug8ydMdA" name="Strona-3">
+    <mxGraphModel dx="1768" dy="2108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-1" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Paczka" vertex="1">
+          <mxGeometry height="231" width="350" x="371" y="211" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-2" parent="xAMx9Ri-OI0y0OVH5tMM-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+Adress: Kilent.adress&lt;div&gt;+Odbiorca: Klient.imie&lt;/div&gt;&lt;div&gt;+ID&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: Konto.Paczki_do_&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;odebrania.Item&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+Status Paczki:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="73" width="350" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-3" parent="xAMx9Ri-OI0y0OVH5tMM-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="28" width="350" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-4" parent="xAMx9Ri-OI0y0OVH5tMM-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-Znajdz Adress Paczki()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-Sprawdz Status Paczki()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="350" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-5" edge="1" parent="1" source="xAMx9Ri-OI0y0OVH5tMM-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="xAMx9Ri-OI0y0OVH5tMM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-6" edge="1" parent="1" source="xAMx9Ri-OI0y0OVH5tMM-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="xAMx9Ri-OI0y0OVH5tMM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-7" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Klient" vertex="1">
+          <mxGeometry height="231" width="140" x="117" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-8" parent="xAMx9Ri-OI0y0OVH5tMM-7" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="&lt;div&gt;+Imie:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+Nazwisko:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+Telefon:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+Adress:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="137" width="140" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-9" parent="xAMx9Ri-OI0y0OVH5tMM-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="5" width="140" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-10" parent="xAMx9Ri-OI0y0OVH5tMM-7" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="&lt;br&gt;&lt;div&gt;-Odebranie Paczki()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="140" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-11" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Kurier" vertex="1">
+          <mxGeometry height="334" width="180" x="744" y="-157" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-12" parent="xAMx9Ri-OI0y0OVH5tMM-11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="&lt;div&gt;+imie: String&lt;br&gt;+Login&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+haslo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;+Ilosc Paczek Dostarczeniu: int&lt;div&gt;+Lokalizacjia&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+Lista Dostaw: List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="117" width="180" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-13" parent="xAMx9Ri-OI0y0OVH5tMM-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-14" parent="xAMx9Ri-OI0y0OVH5tMM-11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="-Logowanie()&lt;div&gt;-Odczyt Danych Paczki()&lt;/div&gt;&lt;div&gt;-Zmiana Statusu Paczki()&lt;/div&gt;&lt;div&gt;-Zmiana Statusu Dostawy()&lt;/div&gt;&lt;div&gt;-Sprawdzenie Status Paczki()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="154" width="180" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-15" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Pracownik" vertex="1">
+          <mxGeometry height="245" width="140" x="827" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-17" parent="xAMx9Ri-OI0y0OVH5tMM-15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-16" parent="xAMx9Ri-OI0y0OVH5tMM-15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+Imie: String&lt;div&gt;+Login&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+Haslo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="140" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-18" parent="xAMx9Ri-OI0y0OVH5tMM-15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="-Logowanie()&lt;div&gt;-Zmiana Statusu Paczki()&lt;/div&gt;&lt;div&gt;-Rejestracjia Paczki do Systemu()&lt;/div&gt;&lt;div&gt;-Sprawdzenie Status Paczki()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="140" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-19" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Dostawa" vertex="1">
+          <mxGeometry height="238" width="140" x="410" y="-94" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-20" parent="xAMx9Ri-OI0y0OVH5tMM-19" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="&lt;div&gt;+ ID: int&lt;/div&gt;+ Forma Dostarczenia: String&lt;div&gt;+ Przewidywana Data Dostarczenia: String&lt;/div&gt;&lt;div&gt;+ Status Dostawy: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="140" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-21" parent="xAMx9Ri-OI0y0OVH5tMM-19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-22" parent="xAMx9Ri-OI0y0OVH5tMM-19" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- Znajdz Adress Paczki()&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-23" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Konto" vertex="1">
+          <mxGeometry height="388" width="140" x="99" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-24" parent="xAMx9Ri-OI0y0OVH5tMM-23" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+Login: String&lt;div&gt;+Haslo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+Paczki Do Odebrania: List&lt;/div&gt;&lt;div&gt;+Paczki Wyslane: List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="107" width="140" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-25" parent="xAMx9Ri-OI0y0OVH5tMM-23" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-26" parent="xAMx9Ri-OI0y0OVH5tMM-23" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="-Logowanie()&lt;div&gt;-Rejestracja Paczki do Wyslania()&lt;/div&gt;&lt;div&gt;-Potwierdzenie odbioru paczki()&lt;/div&gt;&lt;div&gt;&lt;div&gt;-Sprawdzenie Status Paczki()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="140" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-27" edge="1" parent="1" source="xAMx9Ri-OI0y0OVH5tMM-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="xAMx9Ri-OI0y0OVH5tMM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-28" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Zamuwienie" vertex="1">
+          <mxGeometry height="233" width="140" x="390" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-29" parent="xAMx9Ri-OI0y0OVH5tMM-28" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Nr Zamuwenie: int&lt;div&gt;+ Data:&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ Koszt: int&lt;br&gt;+ Status:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="119" width="140" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-30" parent="xAMx9Ri-OI0y0OVH5tMM-28" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-31" parent="xAMx9Ri-OI0y0OVH5tMM-28" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- Oplata()&lt;div&gt;- Zamow()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="140" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-32" edge="1" parent="1" source="xAMx9Ri-OI0y0OVH5tMM-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.97;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" target="xAMx9Ri-OI0y0OVH5tMM-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449" y="583.2168674698796" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-33" edge="1" parent="1" source="xAMx9Ri-OI0y0OVH5tMM-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.49;entryY=0.856;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="xAMx9Ri-OI0y0OVH5tMM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-34" edge="1" parent="1" source="xAMx9Ri-OI0y0OVH5tMM-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.723;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="xAMx9Ri-OI0y0OVH5tMM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-35" edge="1" parent="1" source="xAMx9Ri-OI0y0OVH5tMM-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.346;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="xAMx9Ri-OI0y0OVH5tMM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAMx9Ri-OI0y0OVH5tMM-36" edge="1" parent="1" source="xAMx9Ri-OI0y0OVH5tMM-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.335;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="xAMx9Ri-OI0y0OVH5tMM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
